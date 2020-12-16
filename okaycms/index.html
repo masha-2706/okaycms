@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0"/>
+    <title>Panama. Домик на холме</title>
+    <!-- Нормализация стилей-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <!-- Подключение файла стилей-->
+    <link rel="stylesheet" href="main.css"/>
+    <!---- подключение шрифта Open Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <!--Подключение иконки-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon.png"/>
+    <!-- Подключение Bootstrap4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet" id="bootstrap-css"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- Общий контейнер-->
+    <div class="container">
+      <!--...................
+        ........HEADER......... 
+        .................... -->
+      <div class="head_menu">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 head_menu_left line_left">
+            <a href="#"> О магазине </a>
+            <a href="#"> Baby клуб </a>
+            <a href="#"> Доставка и оплата </a>
+            <a href="#"> Новости </a>
+            <a href="#"> Контакты </a>
+          </div>
+          <div class="col col-sm-12 col-md col-lg col-xl head_menu_right line_right">
+            <img src="/img/icons/enter.png"/>
+            <a href="#"> Вход </a>
+          </div>
+          <div class="col-sm-12 col-md col-lg col-xl head_menu_right line_right">
+            <img src="/img/icons/sel.png" />
+            <a href="#"> Избранное </a>
+          </div>
+          <div class="col-sm-12 col-md col-lg col-xl line_right trash">
+            <img src="/img/icons/tras.png" />
+            <a href="#"> Корзина </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row head_title">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 head_contacts">
+          <span> (044) 593 82 39 </span>
+          <span> 0 800 50 77 12 </span>
+          <div class="button_callback">
+            <a href="#">Обратный звонок</a>
+          </div>
+        </div>
+        <div class="col-auto col-sm-auto col-md-6 col-lg-4 col-xl-4 head_logotype">
+          <img src="img/logotype.jpg" />
+        </div>
+        <div class="col-auto">
+          <div class="button_find">
+            <img src="img/icons/find.png" />
+            <a href="#"> Поиск </a>
+          </div>
+        </div>
+      </div>
+
+      <!--................. 
+        .....MAIN MENU ....
+        ............... -->
+
+      <div class="row mainMenu">
+        <div class="col-auto">
+          <a href="#"> Игры и Игрушки </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Школа и Творчество </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Одежда </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Обувь </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Кухня и Кормление </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Гигиена и Уход </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Спорт и Отдых </a>
+        </div>
+        <div class="col-auto">
+          <a href="#"> Детская и Коляски </a>
+        </div>
+      </div>
+
+      <!--................ 
+       ... CARD PRODUCT ...
+        ............... -->
+
+      <div class="row">
+        <div class="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1 preview">
+          <a href="/preview1.html" target="_blank"> <img src="/img/preview/preview1.jpg"/></a>
+          <a href="/preview2.html" target="_blank"> <img src="/img/preview/preview2.jpg"/></a>
+          <a href="/preview3.html" target="_blank"> <img src="/img/preview/preview3.jpg"/></a>
+          <a href="/preview4.html" target="_blank"> <img src="/img/preview/preview4.jpg"/></a>
+          <a href="/preview5.html" target="_blank"> <img src="/img/preview/preview5.jpg"/></a>
+          <img src="/img/icons/check.png" />
+        </div>
+        <div class="col-12 col-sm-11 col-md-11 col-lg-5 col-xl-5 main_pict">
+          <img src="/img/main_pict.jpg" width="100%"/>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 title_card">
+          <span> Lego Creator </span>
+          <h1>
+            Домик на холме, большая коробка <br />
+            с деталями и кубиками
+          </h1>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <p><span id="price"> 5748 </span> грн.</p>
+              <p id="old_price">6574 грн.</p>
+            </div>
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+              <img src="/img/icons/stars.png" />
+              <br />
+              <a id="reviews" href="#">54 отзыва</a>
+            </div>
+            <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 soc_icons">
+              <img src="/img/icons/fb.png" />
+              <img src="/img/icons/vk.png" />
+              <img src="/img/icons/google.png" />
+            </div>
+          </div>
+
+          <div class="dimensions">
+            <p>Размеры</p>
+            <a href="#">35</a>
+            <a href="#">37</a>
+            <a href="#">39</a>
+            <a href="#">41</a>
+            <a href="#">43</a>
+            <a href="#">39</a>
+            <a href="#">41</a>
+            <a href="#">43</a>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 nal">
+              <p><span> В наличии! </span> Код товара: 382743</p>
+              <div class="buy">
+                <a href="#">Купить</a>
+              </div>
+              <img src="/img/icons/heart.png"/>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 dostavka">
+              <p><a href="#">Беспланая доставка!</a></p>
+              <p><a href="#">Гарантия!</a></p>
+            </div>
+          </div>
+          <div class="description">
+            <h2>Описание товара</h2>
+            <p>
+              Из этой прекрасной двухэтажной виллы (LEGO № 5771) из серии LEGO
+              Creator можно К тому же из виллы можно собрать еще два других
+              дома.
+            </p>
+            <a href="#">полный текст</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -19,14 +19,16 @@
 .head_menu_left {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  padding-right: 3vh;
+  justify-content: space-around;
+  padding-right: 1px;
   font-family: "Lato", sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
 
 .head_menu_left a {
+  font-family: "Lato-Medium", sans-serif;
+  font-size: 14px;  
   padding-right: 3vh;
   text-decoration: none;
   color: #333333;
